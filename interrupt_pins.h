@@ -20,7 +20,7 @@
 
 	// Arduino Leonardo, Micro
 	#elif defined(__AVR_ATmega32U4__) && !defined(CORE_TEENSY)
-	  #define CORE_NUM_INTERRUPT	4
+	  #define CORE_NUM_INTERRUPT	5
 	  #define CORE_INT0_PIN		3
 	  #define CORE_INT1_PIN		2
 	  #define CORE_INT2_PIN		0
