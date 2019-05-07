@@ -125,6 +125,10 @@ class Counter
 		#ifdef CORE_INT5_PIN
 		static void isr5() { update(interruptArgs[5]); }
 		#endif
+
+		#ifdef CORE_INT6_PIN
+		static void isr6() { update(interruptArgs[6]); }
+		#endif
 };
 
 #endif

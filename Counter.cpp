@@ -6,7 +6,7 @@ Counter::Counter(uint8_t pin) {
 	
 	#warning Counter need that pin having interruption
 
-	pinMode(pin, INPUT_PULLUP);
+	pinMode(pin, INPUT);
 
 	state.pin = pin;
 	state.value = 0;
